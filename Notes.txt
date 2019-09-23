@@ -1,0 +1,45 @@
+iOS Fusion 5.0
+
+Virtualization - Enabled by default
+Virtual Box - Open MACOS and then open XCode, create new project, default selections and then go on to main story board, type in hello world.
+Main story board is basically how your iPhone looks like, inside it it showcases how your app layout looks like.
+After downloading certain repositories from the internet, you're supposed to include those image assets after deleting the previous ones, and then select image and then choose an appropriate background image. 
+
+You drag images from the attribute inspector where images is written. Labels are there too. As per requirement, fit it , alignfill to fit it to the entire screen as in background
+Drag a button and then go to double circle then identity inspector then in the custom class section name it ViewController
+On our phone, yellow button, ViewController and then go to double circle and then in the code, use automatic and then use the file already coded 
+After this link  your button, and both the images inside the class, outside the function using drag i.e keeping RMB pressed while you drag the trackpad
+for button, action and for images, layout 
+and then, edit the code
+inside the button, @IBAction func goButton(_ sender:Any) { } 
+Within this, enter code, such as printing a text or generating random values for two variables 
+randomise function : Int(arc4random_uniform(6)) -> 0-6
+Outlet is used for customising the stucture of a particular field
+Action to perform action
+The way you order files in ControllerScene matters as a bg is supposed to be at the top sice it's the bottommost layer
+And after that come button and image since they are at the front
+Run, and then you get the output
+
+2 main panels : 
+3 lines for appview
+circles for coding
+apart from these, on the right
+3 more panels : 
+left to show buildtime/runtime
+bottom to show output screen message
+right for more panels such as identity inspector 
+
+editor -> embedin -> navigation controller after selecting the app
+tableview
+add new constraints
+
+chatTable.delegate=self means that the viewController can access the table's functions
+prototype cells -> increase 0 to 1, it creates a prototype cell, elongate it and add an imageview to it, 2 labels for name and last message
+
+after this, link everything to the automatic window
+name it in the UI kit, name your cell an identifier and make the required changes everywhere
+go back to viewcontroller, 
+cell.dp.image=UIImage(named:profileImages[indexPath.row])
+cell.name.text=profileNames[indexPath.row]
+
+and then make another height for function and return 200
